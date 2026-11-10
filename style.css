@@ -1,0 +1,81 @@
+/* Spoločný štýl pre všetky stránky */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f1ea;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Horná navigácia */
+nav {
+    background: #2f4f3a;
+    padding: 12px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a.aktivna {
+    text-decoration: underline;
+}
+
+/* Hlavička stránky */
+header {
+    background: #4a7c59;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Obsah */
+main {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 16px;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2f4f3a;
+    margin-top: 0;
+}
+
+/* Tlačidlo-odkaz */
+.tlacidlo {
+    display: inline-block;
+    background: #c0703a;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tlacidlo:hover {
+    background: #a15a2a;
+}
+
+/* Pätička */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 14px;
+}
